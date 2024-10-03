@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="section header">
+        <div class="header-account">
+          <img class="header-img" src="/images/image-jeremy.png" alt="" />
+          <div class="header-report">
+            <div class="header-for">Report for</div>
+            <div class="header-name">Jeremy Robson</div>
+          </div>
+        </div>
+        <div class="frequency">
+          <span id="selectDaily">Daily </span>
+          <span id="selectWeekly">Weekly </span>
+          <span id="selectMonthly">Monthly</span>
+        </div>
+      </div>
+
+      <div class="section section-title work">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x5</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x7</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x32</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x36</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x103</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x128</span>hrs</p>
+        </div>
+      </div>
+
+      <div class="section section-title play">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x1</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x2</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x10</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x8</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x23</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x29</span>hrs</p>
+        </div>
+      </div>      
+
+      <div class="section section-title study">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x1</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x2</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x10</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x8</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x23</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x29</span>hrs</p>
+        </div>
+      </div>  
+
+      <div class="section section-title exercise">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x1</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x2</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x10</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x8</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x23</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x29</span>hrs</p>
+        </div>
+      </div>  
+
+      <div class="section section-title social">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x1</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x2</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x10</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x8</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x23</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x29</span>hrs</p>
+        </div>
+      </div> 
+
+      <div class="section section-title self-care">
+        <div class="section-icon"></div>
+        <div class="daily section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="daily-current">x1</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Previous Day - <span class="daily-previous">x2</span>hrs</p>
+        </div>
+        <div class="weekly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="weekly-current">x10</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Week - <span class="weekly-previous">x8</span>hrs</p>
+        </div>
+        <div class="monthly section-logged">
+          <p class="title-logged">Work</p>
+          <p class="current-logged"><span class="monthly-current">x23</span>hrs</p>
+          <img class="icon-logged" src="/images/icon-ellipsis.svg" alt="" />
+          <p class="previous-logged">Last Month - <span class="monthly-previous">x29</span>hrs</p>
+        </div>
+      </div> 
+
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
